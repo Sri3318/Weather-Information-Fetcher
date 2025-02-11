@@ -68,6 +68,60 @@ No City Found
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+# 🌤 Weather Information Fetcher – README  
+
+## 📌 Overview  
+The **Weather Information Fetcher** is a Python-based GUI application that retrieves real-time weather data using the **OpenWeatherMap API**. Users can enter a city name, and the app displays temperature (°C/°F), humidity, wind speed, and a weather condition label (e.g., 🌧 Cold, 🔥 Hot).  
+
+## 🛠 Features  
+✔ **Real-time Weather Data** – Fetches current weather conditions for any city  
+✔ **Temperature in Celsius & Fahrenheit** – Auto-converted for convenience  
+✔ **Weather Condition Labels** – Displays descriptions like 🌧 Cold, 🔥 Hot  
+✔ **User-friendly GUI** – Built using **Tkinter** for an interactive experience  
+✔ **Error Handling** – Alerts for invalid city names and connection issues  
+
+## 🚀 How to Run  
+1. **Clone the repository**  
+   ```sh
+   git clone https://github.com/yourusername/weather-fetcher.git
+   cd weather-fetcher
+   ```
+2. **Install Dependencies**  
+   ```sh
+   pip install requests
+   ```
+3. **Run the script**  
+   ```sh
+   python weather.py
+   ```
+
+## 📂 Project Structure  
+```
+📁 Weather-Fetcher  
+ ├── weather.py     # Main script  
+ ├── README.md      # Project documentation  
+```
+
+## 🛠 Technologies Used  
+- **Python** – Core programming language  
+- **Tkinter** – GUI framework for user interface  
+- **Requests Module** – Fetches data from OpenWeatherMap API  
+- **OpenWeatherMap API** – Provides real-time weather information  
+
+## 📌 API Key Setup  
+Replace `API_KEY` in `weather.py` with your own OpenWeatherMap API key:  
+```python
+API_KEY = "your_api_key_here"
+```
+Get your API key from [OpenWeatherMap](https://openweathermap.org/).  
+
+
+## 📜 License  
+This project is open-source. Feel free to modify and improve it.  
+
+---
+
+This README provides a clear and structured guide for GitHub users to understand, set up, and run the **Weather Information Fetcher**. 🚀
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
